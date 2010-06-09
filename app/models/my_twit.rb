@@ -21,20 +21,26 @@ class MyTwit
     options_for_render[:per_page] ||= 6
     options_for_render[:page] ||= 1
     
-    buffer = open("http://api.twitter.com/1/statuses/user_timeline/#{@@user_name}.json?page=#{options_for_render[:page]}&count=#{options_for_render[:per_page]}").read
-    @data = JSON.parse(buffer)
+    begin
+      buffer = open("http://api.twitter.com/1/statuses/user_timeline/#{@@user_name}.json?page=#{options_for_render[:page]}&count=#{options_for_render[:per_page]}").read
+    rescue
+      
+    end
     
-    @timeline = JSON.parse(buffer)
-    p @timeline
-    options_for_render[:per_page] ||= 6
-    options_for_render[:page] ||= 1
+    if buffer
+      @data = JSON.parse(buffer)
     
-    result = []
+      @timeline = JSON.parse(buffer)
+      p @timeline
+      options_for_render[:per_page] ||= 6
+      options_for_render[:page] ||= 1
     
-    p @data
+      result = []
     
-    return result
+      p @data
     
+      return result
+    end
   end
   
 end

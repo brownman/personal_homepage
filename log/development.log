@@ -1821,3 +1821,846 @@ Completed in 1617ms (View: 1, DB: 0) | 200 OK [http://localhost/]
 Processing HomeController#index (for 127.0.0.1 at 2010-06-02 10:38:36) [GET]
 Rendering home/index
 Completed in 1634ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:19:41) [GET]
+
+MissingSourceFile (no such file to load -- flickraw):
+  app/models/flick_pic.rb:12:in `init'
+  app/controllers/home_controller.rb:10:in `index'
+
+Rendered rescues/_trace (85.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:20:10) [GET]
+
+OpenURI::HTTPError (502 Bad Gateway):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:277:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  app/models/my_twit.rb:24:in `find_all'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:20:21) [GET]
+
+OpenURI::HTTPError (502 Bad Gateway):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:277:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  app/models/my_twit.rb:24:in `find_all'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (60.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:21:42) [GET]
+Rendering home/index
+Completed in 1666ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:22:55) [GET]
+
+OpenURI::HTTPError (502 Bad Gateway):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:277:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  app/models/my_twit.rb:24:in `find_all'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (38.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:23:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1499ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:00) [GET]
+
+ActionController::RoutingError (No route matches "/_css/styles.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:00) [GET]
+
+ActionController::RoutingError (No route matches "/_js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:00) [GET]
+
+ActionController::RoutingError (No route matches "/_js/application.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:00) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/facebook.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/xing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/linkedin.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/twitter.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/flickr.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/lastfm.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/delicious.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/gmail.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/skype.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:24:23) [GET]
+
+OpenURI::HTTPError (502 Bad Gateway):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:277:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  app/models/my_twit.rb:24:in `find_all'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (162.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:26:35) [GET]
+
+OpenURI::HTTPError (502 Bad Gateway):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:277:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  app/models/my_twit.rb:24:in `find_all'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (134.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:27:29) [GET]
+
+SyntaxError (/www/ror/personal_homepage/app/models/my_twit.rb:43: syntax error, unexpected kEND, expecting $end):
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (39.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:29:57) [GET]
+
+NoMethodError (undefined method `[{"in_reply_to_user_id":null,"contributors":null,"source":"web","created_at":"Wed Jun 09 16:20:05 +0000 2010","place":null,"in_reply_to_screen_name":null,"user":{"notifications":false,"profile_link_color":"009999","profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","description":"art/design, music, sports, study, traveling, marketing, webdev","lang":"en","profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","statuses_count":475,"profile_sidebar_fill_color":"efefef","screen_name":"fraank","profile_background_tile":true,"contributors_enabled":false,"following":false,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_sidebar_border_color":"eeeeee","geo_enabled":false,"followers_count":73,"friends_count":75,"verified":false,"profile_background_color":"131516","protected":false,"url":"http://www.fraank.de","favourites_count":1,"name":"Frank Cieslik","profile_text_color":"333333","location":"M\u00fcnsterland","id":14168992,"time_zone":"Berlin","utc_offset":3600},"favorited":false,"truncated":false,"coordinates":null,"in_reply_to_status_id":null,"id":15788408864,"geo":null,"text":"Meine Hoffnung, dass die Rundfunkgeb\u00fchren komplett abgeschafft werden, war wohl ein wenig zu optimistisch, oder?"},{"in_reply_to_user_id":null,"source":"web","created_at":"Wed Jun 09 08:35:10 +0000 2010","place":null,"in_reply_to_screen_name":null,"user":{"notifications":false,"profile_link_color":"009999","profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","description":"art/design, music, sports, study, traveling, marketing, webdev","lang":"en","profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","statuses_count":474,"profile_sidebar_fill_color":"efefef","screen_name":"fraank","profile_background_tile":true,"contributors_enabled":false,"following":true,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_sidebar_border_color":"eeeeee","geo_enabled":false,"followers_count":73,"friends_count":74,"verified":false,"profile_background_color":"131516","protected":false,"url":"http://www.fraank.de","favourites_count":1,"name":"Frank Cieslik","profile_text_color":"333333","location":"M\u00fcnsterland","id":14168992,"time_zone":"Berlin","utc_offset":3600},"favorited":false,"truncated":false,"contributors":null,"coordinates":null,"in_reply_to_status_id":null,"id":15768245255,"geo":null,"text":"#Safari 5.0 \u00fcber die Softwareaktualisierung verf\u00fcgbar!"},{"coordinates":null,"contributors":null,"geo":null,"in_reply_to_screen_name":null,"source":"web","favorited":false,"truncated":false,"in_reply_to_status_id":null,"user":{"profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","url":"http://www.fraank.de","description":"art/design, music, sports, study, traveling, marketing, webdev","statuses_count":473,"profile_sidebar_fill_color":"efefef","profile_background_tile":true,"location":"M\u00fcnsterland","contributors_enabled":false,"profile_sidebar_border_color":"eeeeee","geo_enabled":false,"notifications":false,"followers_count":72,"profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","lang":"en","friends_count":74,"verified":false,"profile_background_color":"131516","screen_name":"fraank","favourites_count":1,"protected":false,"following":true,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_text_color":"333333","name":"Frank Cieslik","time_zone":"Berlin","id":14168992,"utc_offset":3600,"profile_link_color":"009999"},"created_at":"Tue Jun 08 17:13:05 +0000 2010","id":15719653606,"place":null,"in_reply_to_user_id":null,"text":"\u00dcbrigens ein totsicherer #WM-Tipp: Austragungsland wird  S\u00fcdafrika sein! - Wo kann ich wetten?"},{"in_reply_to_screen_name":null,"truncated":false,"coordinates":null,"in_reply_to_status_id":null,"geo":null,"source":"web","in_reply_to_user_id":null,"retweeted":false,"contributors":null,"user":{"profile_background_tile":true,"url":"http://www.fraank.de","description":"art/design, music, sports, study, traveling, marketing, webdev","statuses_count":472,"profile_sidebar_border_color":"eeeeee","blocking":false,"profile_use_background_image":true,"followers_count":72,"location":"M\u00fcnsterland","contributors_enabled":false,"friends_count":74,"geo_enabled":false,"notifications":true,"profile_background_color":"131516","profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","lang":"en","favourites_count":1,"verified":false,"profile_text_color":"333333","screen_name":"fraank","time_zone":"Berlin","protected":false,"following":true,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_link_color":"009999","name":"Frank Cieslik","profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","id":14168992,"utc_offset":3600,"profile_sidebar_fill_color":"efefef"},"favorited":false,"created_at":"Mon Jun 07 20:00:02 +0000 2010","id":15652650041,"place":null,"text":"Listening to the latest free #echodub release - great Stuff! #echodubLovesVol2 http://echodub.co.uk/"},{"coordinates":null,"geo":null,"contributors":null,"in_reply_to_screen_name":null,"source":"web","favorited":false,"truncated":false,"in_reply_to_status_id":null,"user":{"profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","url":"http://www.fraank.de","description":"art/design, music, sports, study, traveling, marketing, webdev","statuses_count":471,"profile_sidebar_fill_color":"efefef","profile_background_tile":true,"location":"M\u00fcnsterland","contributors_enabled":false,"profile_sidebar_border_color":"eeeeee","geo_enabled":false,"notifications":true,"followers_count":71,"profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","lang":"en","friends_count":75,"verified":false,"profile_background_color":"131516","screen_name":"fraank","favourites_count":1,"protected":false,"following":true,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_text_color":"333333","name":"Frank Cieslik","time_zone":"Berlin","id":14168992,"utc_offset":3600,"profile_link_color":"009999"},"created_at":"Mon Jun 07 11:24:41 +0000 2010","id":15622506487,"place":null,"in_reply_to_user_id":null,"text":"Aber holla, oder besser gesagt Holly! http://bit.ly/bz6JhB"},{"coordinates":null,"in_reply_to_screen_name":null,"geo":null,"favorited":false,"truncated":false,"in_reply_to_status_id":null,"source":"web","contributors":null,"in_reply_to_user_id":null,"user":{"profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","profile_link_color":"009999","url":"http://www.fraank.de","description":"art/design, music, sports, study, traveling, marketing, webdev","profile_background_tile":true,"friends_count":72,"profile_sidebar_fill_color":"efefef","location":"elsewhere","notifications":false,"profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","verified":false,"favourites_count":1,"profile_sidebar_border_color":"eeeeee","lang":"en","screen_name":"fraank","statuses_count":470,"profile_background_color":"131516","protected":false,"contributors_enabled":false,"following":true,"time_zone":"Berlin","created_at":"Tue Mar 18 10:02:27 +0000 2008","name":"Frank Cieslik","profile_text_color":"333333","followers_count":67,"id":14168992,"geo_enabled":false,"utc_offset":3600},"created_at":"Tue Jun 01 12:16:17 +0000 2010","id":15173726804,"place":null,"text":"Nice! #lastfm #tag #folk-punk"}]' for #<MyTwit:0x2491ae0>):
+  app/models/my_twit.rb:24:in `try'
+  app/models/my_twit.rb:24:in `find_all'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (211.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:30:01) [GET]
+
+NoMethodError (undefined method `[{"in_reply_to_user_id":null,"contributors":null,"source":"web","created_at":"Wed Jun 09 16:20:05 +0000 2010","place":null,"in_reply_to_screen_name":null,"user":{"notifications":false,"profile_link_color":"009999","profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","description":"art/design, music, sports, study, traveling, marketing, webdev","lang":"en","profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","statuses_count":475,"profile_sidebar_fill_color":"efefef","screen_name":"fraank","profile_background_tile":true,"contributors_enabled":false,"following":false,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_sidebar_border_color":"eeeeee","geo_enabled":false,"followers_count":73,"friends_count":75,"verified":false,"profile_background_color":"131516","protected":false,"url":"http://www.fraank.de","favourites_count":1,"name":"Frank Cieslik","profile_text_color":"333333","location":"M\u00fcnsterland","id":14168992,"time_zone":"Berlin","utc_offset":3600},"favorited":false,"truncated":false,"coordinates":null,"in_reply_to_status_id":null,"id":15788408864,"geo":null,"text":"Meine Hoffnung, dass die Rundfunkgeb\u00fchren komplett abgeschafft werden, war wohl ein wenig zu optimistisch, oder?"},{"in_reply_to_user_id":null,"source":"web","created_at":"Wed Jun 09 08:35:10 +0000 2010","place":null,"in_reply_to_screen_name":null,"user":{"notifications":false,"profile_link_color":"009999","profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","description":"art/design, music, sports, study, traveling, marketing, webdev","lang":"en","profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","statuses_count":474,"profile_sidebar_fill_color":"efefef","screen_name":"fraank","profile_background_tile":true,"contributors_enabled":false,"following":true,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_sidebar_border_color":"eeeeee","geo_enabled":false,"followers_count":73,"friends_count":74,"verified":false,"profile_background_color":"131516","protected":false,"url":"http://www.fraank.de","favourites_count":1,"name":"Frank Cieslik","profile_text_color":"333333","location":"M\u00fcnsterland","id":14168992,"time_zone":"Berlin","utc_offset":3600},"favorited":false,"truncated":false,"contributors":null,"coordinates":null,"in_reply_to_status_id":null,"id":15768245255,"geo":null,"text":"#Safari 5.0 \u00fcber die Softwareaktualisierung verf\u00fcgbar!"},{"coordinates":null,"contributors":null,"geo":null,"in_reply_to_screen_name":null,"source":"web","favorited":false,"truncated":false,"in_reply_to_status_id":null,"user":{"profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","url":"http://www.fraank.de","description":"art/design, music, sports, study, traveling, marketing, webdev","statuses_count":473,"profile_sidebar_fill_color":"efefef","profile_background_tile":true,"location":"M\u00fcnsterland","contributors_enabled":false,"profile_sidebar_border_color":"eeeeee","geo_enabled":false,"notifications":false,"followers_count":72,"profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","lang":"en","friends_count":74,"verified":false,"profile_background_color":"131516","screen_name":"fraank","favourites_count":1,"protected":false,"following":true,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_text_color":"333333","name":"Frank Cieslik","time_zone":"Berlin","id":14168992,"utc_offset":3600,"profile_link_color":"009999"},"created_at":"Tue Jun 08 17:13:05 +0000 2010","id":15719653606,"place":null,"in_reply_to_user_id":null,"text":"\u00dcbrigens ein totsicherer #WM-Tipp: Austragungsland wird  S\u00fcdafrika sein! - Wo kann ich wetten?"},{"in_reply_to_screen_name":null,"truncated":false,"coordinates":null,"in_reply_to_status_id":null,"geo":null,"source":"web","in_reply_to_user_id":null,"retweeted":false,"contributors":null,"user":{"profile_background_tile":true,"url":"http://www.fraank.de","description":"art/design, music, sports, study, traveling, marketing, webdev","statuses_count":472,"profile_sidebar_border_color":"eeeeee","blocking":false,"profile_use_background_image":true,"followers_count":72,"location":"M\u00fcnsterland","contributors_enabled":false,"friends_count":74,"geo_enabled":false,"notifications":true,"profile_background_color":"131516","profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","lang":"en","favourites_count":1,"verified":false,"profile_text_color":"333333","screen_name":"fraank","time_zone":"Berlin","protected":false,"following":true,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_link_color":"009999","name":"Frank Cieslik","profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","id":14168992,"utc_offset":3600,"profile_sidebar_fill_color":"efefef"},"favorited":false,"created_at":"Mon Jun 07 20:00:02 +0000 2010","id":15652650041,"place":null,"text":"Listening to the latest free #echodub release - great Stuff! #echodubLovesVol2 http://echodub.co.uk/"},{"coordinates":null,"geo":null,"contributors":null,"in_reply_to_screen_name":null,"source":"web","favorited":false,"truncated":false,"in_reply_to_status_id":null,"user":{"profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","url":"http://www.fraank.de","description":"art/design, music, sports, study, traveling, marketing, webdev","statuses_count":471,"profile_sidebar_fill_color":"efefef","profile_background_tile":true,"location":"M\u00fcnsterland","contributors_enabled":false,"profile_sidebar_border_color":"eeeeee","geo_enabled":false,"notifications":true,"followers_count":71,"profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","lang":"en","friends_count":75,"verified":false,"profile_background_color":"131516","screen_name":"fraank","favourites_count":1,"protected":false,"following":true,"created_at":"Tue Mar 18 10:02:27 +0000 2008","profile_text_color":"333333","name":"Frank Cieslik","time_zone":"Berlin","id":14168992,"utc_offset":3600,"profile_link_color":"009999"},"created_at":"Mon Jun 07 11:24:41 +0000 2010","id":15622506487,"place":null,"in_reply_to_user_id":null,"text":"Aber holla, oder besser gesagt Holly! http://bit.ly/bz6JhB"},{"coordinates":null,"in_reply_to_screen_name":null,"geo":null,"favorited":false,"truncated":false,"in_reply_to_status_id":null,"source":"web","contributors":null,"in_reply_to_user_id":null,"user":{"profile_background_image_url":"http://a1.twimg.com/profile_background_images/100508316/background_200k.jpg","profile_link_color":"009999","url":"http://www.fraank.de","description":"art/design, music, sports, study, traveling, marketing, webdev","profile_background_tile":true,"friends_count":72,"profile_sidebar_fill_color":"efefef","location":"elsewhere","notifications":false,"profile_image_url":"http://a1.twimg.com/profile_images/765966918/DSC_2733_twt_normal.jpg","verified":false,"favourites_count":1,"profile_sidebar_border_color":"eeeeee","lang":"en","screen_name":"fraank","statuses_count":470,"profile_background_color":"131516","protected":false,"contributors_enabled":false,"following":true,"time_zone":"Berlin","created_at":"Tue Mar 18 10:02:27 +0000 2008","name":"Frank Cieslik","profile_text_color":"333333","followers_count":67,"id":14168992,"geo_enabled":false,"utc_offset":3600},"created_at":"Tue Jun 01 12:16:17 +0000 2010","id":15173726804,"place":null,"text":"Nice! #lastfm #tag #folk-punk"}]' for #<MyTwit:0x25fbaac>):
+  app/models/my_twit.rb:24:in `try'
+  app/models/my_twit.rb:24:in `find_all'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (112.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:31:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3305ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_css/styles.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_js/application.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/facebook.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/xing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/linkedin.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/twitter.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/flickr.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/lastfm.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/delicious.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/gmail.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:07) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/skype.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:31:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6427ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_js/application.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_css/styles.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/facebook.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/xing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/linkedin.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/twitter.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/flickr.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/lastfm.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/delicious.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/gmail.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/skype.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:37:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (1.1ms)
+Rendered shared/_footer (0.9ms)
+Completed in 1661ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_css/styles.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_js/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_js/application.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/facebook.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/xing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/linkedin.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/twitter.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/flickr.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/lastfm.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/delicious.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/gmail.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:02) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/skype.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:37:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (1.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 1703ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:33) [GET]
+
+ActionController::RoutingError (No route matches "/_images/fraank_de.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:33) [GET]
+
+ActionController::RoutingError (No route matches "/_images/background_200k.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:33) [GET]
+
+ActionController::RoutingError (No route matches "/_images/frank_cieslik-online_portfolio.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/facebook.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/xing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/linkedin.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/twitter.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/flickr.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/lastfm.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/delicious.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/gmail.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:34) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/skype.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:37:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 2326ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/background_200k.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/frank_cieslik-online_portfolio.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/facebook.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/xing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/linkedin.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/twitter.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/flickr.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/lastfm.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/delicious.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/gmail.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:37:49) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/skype.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:38:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 9528ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/facebook.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/xing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/linkedin.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/twitter.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/flickr.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/lastfm.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/delicious.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/gmail.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 23:38:12) [GET]
+
+ActionController::RoutingError (No route matches "/_images/social/skype.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-09 23:39:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 1508ms (View: 7, DB: 0) | 200 OK [http://localhost/]
