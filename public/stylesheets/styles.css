@@ -1,0 +1,94 @@
+html {
+	
+}
+
+body {
+  margin:0;
+  padding:0px;
+	background-image:url(/images/background_200k.jpg);
+	background-repeat:no-repeat;
+  background-color:#151515;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 11px;
+	color:#ccc;
+}
+
+a { color:#000; text-decoration:none; }
+
+h1, h2, h3, h4, p, ul, li { margin:0; padding:0;}
+
+#bg_info {
+	position:absolute;
+	right:10px;
+	bottom:10px;padding:10px;
+	background-color:#fff;
+	font-size:10px;
+}
+
+#wrapper{
+	margin:110px 20px 20px 20px;
+}
+
+h1.logo {
+	background-image:url(/images/frank_cieslik-online_portfolio.png);
+	height:15px;
+	width:256px;
+}
+
+p.logo {
+	background-image:url(/images/fraank_de.png);
+	width:256px;
+	height:30px;
+}
+
+h1.logo span, p.logo span {
+	font-size:10px;
+	display:none;
+}
+
+#content {
+	margin:40px 0 0 0;
+}
+
+#content h2 {
+	margin-top:20px;
+	font-weight:normal;
+	color:#fff;
+	font-size:13px;
+}
+
+.email strong {
+	display:none;
+}
+
+#social {
+  margin-top:10px;
+}
+
+#social img {
+  width:30px;
+	float:left;
+	border:0;
+	margin: 0 10px 0 0;
+	cursor:pointer;
+}
+
+#social ul {
+	clear:both;
+	padding-top:10px;
+}
+
+#social ul li{
+	display:none;
+}
+
+#social ul li a {
+	color:#fff;
+	text-decoration:none;
+}
+
+#social ul li.active{
+	display:block;
+}
+
+

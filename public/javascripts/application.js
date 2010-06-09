@@ -1,2 +1,10 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+var image = false;
+$(document).ready(function(){
+	$("#social > a > img").bind('mouseover', function() {
+	  $($("#social > ul > li."+$(this).css()[0].className).get(0)).addClass('active')
+	});
+	$("#social > a > img").bind('mouseout', function() {
+	  $($("#social > ul > li."+$(this).css()[0].className).get(0)).removeClass('active')
+	});
+	
+});
