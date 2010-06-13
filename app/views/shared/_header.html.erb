@@ -7,15 +7,33 @@
     
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
   <meta name="description" content="fraank.de - Online Portfolio von Frank Cieslik" /> 
-  <meta name="keywords" content="Frank, Cieslik, Frank Cieslik, Fraank, Steinfurt, Neuenkirchen, Emsdetten, Münster, Projektmanagement, Webentwicklung, E-Commerce, Social Media" /> 
-  <meta name="language" content="de" /> 
+  <meta name="keywords" content="Frank, Cieslik, Frank Cieslik, Fraank, Steinfurt, Neuenkirchen, Emsdetten, Münster, Münsterland, E-Commerce, Projektmanagement, Webentwicklung, Social Media" /> 
+  <meta name="language" content="<%=@local%>" /> 
   
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   
-  <link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css" /> 
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cardo|Molengo"> 
+  <link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css" />
+  
   <script src="/javascripts/jquery.js" type="text/javascript"></script> 
   <script src="/javascripts/application.js" type="text/javascript"></script>  
+  
 </head> 
- 
-<body> 
- 
-<div id="wrapper">
+
+<body>
+  
+<div id ="header" class="wrapper white">
+  <a href="http://github.com/fraank/personal_homepage" class="source">[ get source ]</a>
+
+  <% if @locale == "en" -%>
+    <%= link_to "[ de ]", {:controller => params[:controller], :action => params[:action], :locale => 'de'}, {:class => 'language'} %>
+  <% else -%>
+    <%= link_to "[ en ]", {:controller => params[:controller], :action => params[:action], :locale => 'en'}, {:class => 'language'} %>
+  <% end -%>
+
+  <%= link_to image_tag ("fraank_logo.png", :alt => "fraank.de - Logo", :title => "fraank.de - Logo"), { :controller => '/', :locale => @locale } %>
+  <h2>fraank.de</h2>
+  <h1>Frank Cieslik - Online Portfolio</h1>
+  <div class="clearer"> </div>
+</div>
+  

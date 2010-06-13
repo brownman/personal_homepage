@@ -23,7 +23,7 @@ class FlickPic
   # find most recent pics from user
   def find_all options_for_render = {}
     
-    options_for_render[:per_page] ||= 6
+    options_for_render[:per_page] ||= 5
     options_for_render[:page] ||= 1
     
     result = []

@@ -1,0 +1,8 @@
+<div id="menu" class="wrapper white">
+  <%= link_to t('home.home'), { :controller => "/", :locale => @locale }, :class => ((params[:controller] == 'home') ? "active" : '') %> |
+  <%= link_to t('contact.contact'), { :controller => "contact", :locale => @locale }, :class => ((params[:controller] == 'contact') ? "active" : '')  %>
+  <div  class="right">
+    <a href="http://tech.fraank.de">tech-blog</a> | 
+    <a href="http://quick.fraank.de">quick</a>
+  </div>
+</div>

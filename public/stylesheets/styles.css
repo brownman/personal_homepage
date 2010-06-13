@@ -1,94 +1,162 @@
 html {
-	
+  
 }
 
 body {
-  margin:0;
+  margin:30px auto 0px auto;
+  width:600px;
   padding:0px;
-	background-image:url(/images/background_200k.jpg);
-	background-repeat:no-repeat;
+  background-image:url(/images/background_200k.jpg);
+  background-repeat:no-repeat;
   background-color:#151515;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 11px;
-	color:#ccc;
+  font-family: 'Molengo';
+  font-size: 12px;
+  color:#000;
 }
 
-a { color:#000; text-decoration:none; }
+a { color:#000; text-decoration:underline; }
+a img {border:0px solid #000; }
+h1, h2, h3, h4, p, ul, li { margin:0; padding:0; font-weight:normal; text-align:left;}
 
-h1, h2, h3, h4, p, ul, li { margin:0; padding:0;}
+h2 { font-size:18px; border-bottom:1px solid #CCC; margin-bottom:10px; }
+h3 { font-size:14px; border-bottom:1px solid #CCC; margin-bottom:10px; }
 
-#bg_info {
-	position:absolute;
-	right:10px;
-	bottom:10px;padding:10px;
-	background-color:#fff;
-	font-size:10px;
+a.link { background-color:none; margin:0; padding:0; color:#95040b; text-decoration:none; font-size:12px; }
+
+.wrapper {
+  margin:10px;
+  padding:10px;
+}
+.wrapper.white {
+  background-color:#FFF;  
 }
 
-#wrapper{
-	margin:110px 20px 20px 20px;
+.right { float:right; }
+a.grey { color: #ccc; }
+.clearer { clear:both; }
+
+#header a.source, #header a.language {
+  float:right;
+  color:#ccc;
+  text-decoration:none;
+  margin-left:10px;
 }
 
-h1.logo {
-	background-image:url(/images/frank_cieslik-online_portfolio.png);
-	height:15px;
-	width:256px;
+#header h1 {
+  font-size:20px;
+  border:0px solid #ff0000;
 }
 
-p.logo {
-	background-image:url(/images/fraank_de.png);
-	width:256px;
-	height:30px;
+#header h2 {
+  font-size:30px;
+  margin:15px 0 0 0;
+  border:0px solid #ff0000;
 }
 
-h1.logo span, p.logo span {
-	font-size:10px;
-	display:none;
+#header img {
+  float:left;
+  margin:0px 10px 0px 0px;
 }
 
-#content {
-	margin:40px 0 0 0;
+#menu a {
+  padding:0 5px 0 5px;
 }
 
-#content h2 {
-	margin-top:20px;
-	font-weight:normal;
-	color:#fff;
-	font-size:13px;
+#menu a:hover, #menu a.active {
+  background-color:#95040b;
+  color:#fff;
+  text-decoration:none;
 }
 
-.email strong {
-	display:none;
+#tweets {
+  list-style-type:none;
+}
+#tweets i{
+  float:right;
+}
+#tweets strong{
+  font-size:14px;
+  font-weight:normal;
+  color:#666;
+}
+
+#flickr_pics {
+  overflow:hidden;
+}
+
+#flickr_pics .inner {
+  width:600px;
+}
+
+#flickr_pics a {
+  border:1px solid #ccc;
+  background-color:#fafafa;
+  padding:5px 5px 3px 5px;
+  float:left;
+  margin-right:10px;
+}
+
+#flickr_pics a img {
+  margin:0;
+  padding:0;
 }
 
 #social {
-  margin-top:10px;
+  padding-bottom:0px;
 }
 
 #social img {
   width:30px;
-	float:left;
-	border:0;
-	margin: 0 10px 0 0;
-	cursor:pointer;
+  float:left;
+  border:0;
+  margin: 0 10px 0 0;
+  cursor:pointer;
 }
 
 #social ul {
-	clear:both;
-	padding-top:10px;
+  list-style-type:none;
 }
 
 #social ul li{
-	display:none;
+  width:260px;
+  float:left;
+  background-color:#fafafa;
+  border:1px solid #ccc;
+  padding:5px;
+  margin:0 0 10px 0;
+  color:#333;
+}
+
+#social ul li:hover{
+  background-color:#f0f0f0;
+  border:1px solid #666;
+}
+
+
+#social ul li.first {
+  margin:0 15px 10px 0;
 }
 
 #social ul li a {
-	color:#fff;
-	text-decoration:none;
+  color:#666;
+  text-decoration:none;
 }
 
-#social ul li.active{
-	display:block;
+#social ul li a b {
+  color:#000;
+  font-weight:normal;
 }
 
 
+#bg_info {
+  position:absolute;
+  right:10px;
+  bottom:10px;padding:10px;
+  background-color:#fff;
+  font-size:10px;
+  color:#666;
+}
+
+#bg_info a {
+  color:#666;
+}

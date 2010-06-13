@@ -1,42 +1,6 @@
 <%= render :partial => 'shared/header'%>
-
-<p class="logo"><span>fraank.de</span></p> 
-<h1 class="logo"><span>Frank Cieslik - Online Portfolio</span></h1> 
+<%= render :partial => 'shared/menu'%>
 
 <%= yield %>
-
-<div id="content"> 
-  <h2> 
-    E-Commerce / Projektmanagement / Webentwicklung<br/> 
-  </h2> 
-  <span class="email">Email me: frank.cieslik<strong>nowayspam</strong>@<strong>nowayspam</strong>gmail.com</span> 
-  
-  <h2>Online Profiles</h2> 
-
-  <div id="social"> 
-
-    <a href="http://www.facebook.com/fraank"><img src="/images/social/facebook.png" alt="" title="" class="facebook"/></a> 
-    <a href="http://www.xing.com/profile/Frank_Cieslik3"><img src="/images/social/xing.png" alt="" title="" class="xing"/></a> 
-    <a href="http://de.linkedin.com/in/frankcieslik"><img src="/images/social/linkedin.png" alt="" title="" class="linkedin"/></a> 
-    <a href="http://twitter.com/fraank"><img src="/images/social/twitter.png" alt="" title="" class="twitter"/></a> 
-    <a href="http://www.flickr.com/photos/symfony"><img src="/images/social/flickr.png" alt="" title="" class="flickr"/></a> 
-    <a href="http://www.lastfm.de/user/symfony"><img src="/images/social/lastfm.png" alt="" title="" class="lastfm"/></a> 
-    <a href="http://delicious.com/fraank"><img src="/images/social/delicious.png" alt="" title="" class="delicious"/></a> 
-    <a href="mailto:frank.cieslik@gmail.com"><img src="/images/social/gmail.png" alt="" title="" class="gmail"/></a> 
-    <a href="skype:frank.cieslik?call"><img src="/images/social/skype.png" alt="" title="" class="skype"/></a> 
-
-    <ul> 
-      <li class="facebook"><a href="http://www.facebook.com/fraank"><b>facebook:</b> http://www.facebook.com/fraank</a></li> 
-      <li class="xing"><a href="http://www.xing.com/profile/Frank_Cieslik3"><b>xing:</b> https://www.xing.com/profile/Frank_Cieslik3</a></li> 
-      <li class="linkedin"><a href="http://de.linkedin.com/in/frankcieslik"><b>linkedIn:</b> http://de.linkedin.com/in/frankcieslik</a></li> 
-      <li class="twitter"><a href="http://twitter.com/fraank"><b>twitter:</b> http://twitter.com/fraank</a></li> 
-      <li class="flickr"><a href="http://www.flickr.com/photos/symfony"><b>flickr:</b> http://www.flickr.com/photos/symfony/</a></li> 
-      <li class="lastfm"><a href="http://www.lastfm.de/user/symfony"><b>last.fm:</b> http://last.fm/symfony</a></li> 
-      <li class="delicious"><a href="http://delicious.com/fraank"><b>delicious:</b> http://delicious.com/fraank</a></li> 
-      <li class="skype"><a href="skype:frank.cieslik?call"><b>skype:</b> frank.cieslik</a></li>          
-    </ul> 
-
-  </div> 
-</div> 
 
 <%= render :partial => 'shared/footer'%>

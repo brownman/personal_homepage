@@ -1,17 +1,43 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title></title>
-  </head>
-  <body>
+<div class="wrapper white">
+  <%= t 'line1' %><br/> 
+  <%= t 'line2' %>
+</div>
 
-  <span id="follow-placeholder"></span>
+<% if @tweets -%>
+<div class="wrapper white">
+  <h3>twitter-Stream
+    <span class="right">
+      <a href="http://flickr.com/symfony" class="link">twitter-Profil</a> | 
+      <a href="javascript:void(0);" alt="" title="" class="link grey" id="twitter_scroll_prev" onclick="twitter_scroll.prev();">&#9668;</a>
+      <a href="javascript:void(0);" alt="" title="" class="link" id="twitter_scroll_next" onclick="twitter_scroll.next();">&#9658;</a>
+    </span>
+  </h3>
+  <ul id="tweets">
+  <% @tweets.each_with_index do |tweet, index| -%>
   
-  <% @pics.each do |pic| -%>
-    <a href="<%=pic.link%>"><img src="<%= pic.url('t') %>" alt="<%=pic.title%>" title="<%=pic.title%>" /></a>
+    <li id="twitter_scroll_<%=index%>" <% if index > 0%>style="display:none;"<% end %>>
+      <i><%=tweet.created_at%></i>
+      <p><strong>&#8220;</strong><%= tweet.text %><strong>&#8221;</strong></p>
+    </li>
+  
   <% end -%>
-  
-  </body>
+  </ul>
+</div>
+<% end -%>
 
-</html>
+<% if @pics -%>
+<div class="wrapper white">
+  <h3>flickr-Stream <a href="http://flickr.com/symfony" class="link right">flickr-Profil</a></h3>
+  
+  <div id="flickr_pics">
+    <div class="inner">
+    <% @pics.each do |pic| -%>
+      <a href="<%=pic.link%>"><img src="<%= pic.url('t') %>" alt="<%=pic.title%>" title="<%=pic.title%>" /></a>
+    <% end -%>
+    </div>
+  </div>
+  
+</div>
+<% end -%>
+
+<%= render :partial => 'shared/social'%>
