@@ -21,7 +21,7 @@ h1, h2, h3, h4, p, ul, li { margin:0; padding:0; font-weight:normal; text-align:
 h2 { font-size:18px; border-bottom:1px solid #CCC; margin-bottom:10px; }
 h3 { font-size:14px; border-bottom:1px solid #CCC; margin-bottom:10px; }
 
-a.link { background-color:none; margin:0; padding:0; color:#95040b; text-decoration:none; font-size:12px; }
+a.link { background-color:auto; margin:0; padding:0; color:#95040b; text-decoration:none; font-size:12px; }
 
 .wrapper {
   margin:10px;
