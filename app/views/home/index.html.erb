@@ -5,11 +5,11 @@
 
 <% if @tweets -%>
 <div class="wrapper white">
-  <h3>twitter-Stream
+  <h3><%= t 'twitter.stream' %>
     <span class="right">
-      <a href="http://flickr.com/symfony" class="link">twitter-Profil</a> | 
-      <a href="javascript:void(0);" alt="" title="" class="link grey" id="twitter_scroll_prev" onclick="twitter_scroll.prev();">&#9668;</a>
-      <a href="javascript:void(0);" alt="" title="" class="link" id="twitter_scroll_next" onclick="twitter_scroll.next();">&#9658;</a>
+      <a href="http://twitter.com/fraank" class="link"><%= t 'twitter.profile' %></a> | 
+      <a href="javascript:void(0);" alt="<%= t "twitter.prev" %>" title="<%= t "twitter.prev" %>" class="link grey" id="twitter_scroll_prev" onclick="twitter_scroll.prev();">&#9668;</a>
+      <a href="javascript:void(0);" alt="<%= t "twitter.next" %>" title="<%= t "twitter.next" %>" class="link" id="twitter_scroll_next" onclick="twitter_scroll.next();">&#9658;</a>
     </span>
   </h3>
   <ul id="tweets">
@@ -27,7 +27,7 @@
 
 <% if @pics -%>
 <div class="wrapper white">
-  <h3>flickr-Stream <a href="http://flickr.com/symfony" class="link right">flickr-Profil</a></h3>
+  <h3><%= t 'flickr.stream' %> <a href="http://www.flickr.com/photos/symfony/" class="link right"><%= t 'flickr.profile' %></a></h3>
   
   <div id="flickr_pics">
     <div class="inner">

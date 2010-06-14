@@ -3,10 +3,18 @@ en:
   line2: "Münsterland / Western Germany"
   home:
     home: "home"
+  twitter:
+    stream: "twitter-Stream"
+    profile: "twitter-Profile"
+    next: "next tweet"
+    prev: "prev tweet"
+  flickr:
+    stream: "flickr-Photo-Stream"
+    profile: "flickr-Profile"
   social:
     social: "Social"
     facebook: "facebook (private)"
-    xing: "xing (buisness / german)"
-    linkedin: "linkedIn (buisness / international)"
+    xing: "xing (business / german)"
+    linkedin: "linkedIn (business / international)"
   contact:
     contact: "contact"

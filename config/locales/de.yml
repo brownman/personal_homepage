@@ -3,6 +3,14 @@ de:
   line2: "Münsterland / Westdeutschland"
   home:
     home: "Start"
+  twitter:
+    stream: "twitter-Stream"
+    profile: "twitter-Profil"
+    next: "nächster tweet"
+    prev: "letzter tweet"
+  flickr:
+    stream: "flickr-Photo-Stream"
+    profile: "flickr-Profil"
   social:
     social: "Social"
     facebook: "facebook (privat)"
