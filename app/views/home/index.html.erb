@@ -15,8 +15,8 @@
   <ul id="tweets">
   <% @tweets.each_with_index do |tweet, index| -%>
   
-    <li id="twitter_scroll_<%=index%>" <% if index > 0%>style="display:none;"<% end %>>
-      <i><%=tweet.created_at%></i>
+    <li id="twitter_scroll_<%=index+1 %>" <% if index > 0%>style="display:none;"<% end %>>
+      <i><%= I18n.l( Time.parse(tweet.created_at ), :format => "short") %></i>
       <p><strong>&#8220;</strong><%= tweet.text %><strong>&#8221;</strong></p>
     </li>
   

@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.fraank.de$ [NC]
+RewriteRule ^(.*)$ http://fraank.de/de/$1[L,R=301]
+RewriteCond %{HTTP_HOST} ^fraank.de$ [NC]
+RewriteRule ^(.*)$ http://fraank.de/de/$1[L,R=301]
